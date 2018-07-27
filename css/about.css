@@ -29,10 +29,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-.top-nav{
+header{
+    
+    
+    margin:20px;
+    
+}
+header .top-nav{
+    
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    align-items: flex-end;
 
 }
 .speed{
